@@ -1,0 +1,120 @@
+/* Global settings & fonts */
+ * {
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* Menu */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 116px;
+    padding: 0 34px 0 80px;
+}
+
+.header__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 31px;
+}
+
+.header__button {
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    background-color: inherit;
+    width: 150px;
+    min-height: 43px;
+    text-transform: uppercase;
+}
+
+/* Hero_1 Flex */
+.hero {
+    background-color: #f1f1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin: 0 auto;
+    
+}
+
+.hero__img-block img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    border: 3px solid white;
+    border-radius: 10px;
+    float: right;
+}
+
+.hero-wrap {
+   text-align: center;
+}
+
+.hero-wrap button {
+    border: 1px solid #1e78f7;
+    border-radius: 5px;
+    background-color: #5b7ba9;
+    color: #f1f1f2;
+    width: 150px;
+    min-height: 30px;
+    text-transform: uppercase;
+}
+
+/* Hero_2 Grid */
+.hero-two {
+    background-color: #f1f1f2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.hero-2__img-block img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero-two__info-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* pseudoclasses */
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+button:hover {
+    background-color: rgb(193, 60, 111);
+}
